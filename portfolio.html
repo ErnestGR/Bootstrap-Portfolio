@@ -1,72 +1,113 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">   
-<title>Portfolio</title>
-</head>   
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <title>About</title>
+</head>
 
 <body>
-   <div id="header">
-     <div class="container">
-        
-        <h1>Ernesto García</h1>
-      
-        <ul>
-        <li><a href="index.html">About </a></li>
-        <li><a href="Portfolio.html">Portfolio </a></li>
-        <li id="nb"><a href="Contact.html">Contact</a></li>
-        </ul>
-        </div>
-     </div>
-   </div> 
-   
-<div class="container2">
-  <div id="body">  
-           
-    <h2>Portfolio</h2>  
-    <hr>
 
-        <div id="box01">  
-        <a target="_blank" href="assets/images/01.jpg">
-        <img src="assets/images/01.jpg" alt="Light Bulb C4D" width="200" height="200" border="1">
-        <div class="text">Light Bulb</div>
-        </a>
-        </div>
-        
-        <div id="box02">  
-            <a target="_blank" href="assets/images/02.jpg">
-            <img src="assets/images/02.jpg" alt="Light Bulb C4D" width="200" height="200" border="1">
-            <div class="text">Antique Box</div>
-            </a>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  mb-5" style="padding: 0">
+
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <h1 class="navbar-brand mr-auto" style="background-color: #4aaaa5; margin-bottom: 0;padding: 20px;font-size: 30px;">Ernesto García</h1>
+                <ul class="navbar-nav mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About |<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
 
-            <div id="box03">  
-                <a target="_blank" href="assets/images/03.jpg">
-                <img src="assets/images/03.jpg" alt="Light Bulb C4D" width="200" height="200" border="1">
-                <div class="text">Xbox Controller</div>
-                </a>
-                </div>
+        </div>
+    </nav>
 
-                <div id="box04">  
-                    <a target="_blank" href="assets/images/04.jpg">
-                    <img src="assets/images/04.jpg" alt="Light Bulb C4D" width="200" height="200" border="1">
-                    <div class="text">Prof. Bones</div>
+    <div class="container p-5">
+
+        <div class="row">
+            <div class="col-sm-12" style="color:#4aaaa5;">
+                <h2>Portfolio</h2>
+            </div>
+        </div>
+        <hr style="width: 100%; color: #4aaaa5; height: 1px; background-color:#4aaaa5;" />
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                <div id="box01">
+                    <a target="_blank" href="assets/images/01.jpg">
+                        <img src="assets/images/01.jpg" alt="Light Bulb C4D" width="200">
+                        <div class="caption">Light Bulb</div>
                     </a>
-                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                <div id="box02">
+                    <a target="_blank" href="assets/images/02.jpg">
+                        <img src="assets/images/02.jpg" alt="Light Bulb C4D" width="200">
+                        <div class="caption">Antique Box</div>
+                    </a>
+                </div>    
+                </div>
+            </div>
+        </div>
 
-                    <div id="box05">  
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                <div id="box03">
+                    <a target="_blank" href="assets/images/03.jpg">
+                        <img src="assets/images/03.jpg" alt="Light Bulb C4D" width="200">
+                        <div class="caption">Xbox Controller</div>
+                    </a>
+                </div>    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                <div id="box04">
+                    <a target="_blank" href="assets/images/04.jpg">
+                        <img src="assets/images/04.jpg" alt="Light Bulb C4D" width="200">
+                        <div class="caption">Prof. Bones</div>
+                    </a>
+                </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                    <div id="box05">
                         <a target="_blank" href="assets/images/05.jpg">
-                        <img src="assets/images/05.jpg" alt="Light Bulb C4D" width="200" height="200" border="1">
-                        <div class="text">Melt E</div>
+                            <img src="assets/images/05.jpg" alt="Light Bulb C4D" width="200">
+                            <div class="caption">Melt E</div>
                         </a>
-                        </div>
-
-    </div>
- </div>   
-  
- <div id="footer">
-    <div class="content">copyright &copy;</div>
-</div>
-</body> 
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </div>        
+            <footer class="page-footer font-small blue text-center fixed-bottom bg-secondary">
+                <div class="footer-copyright text-center py-4">© 2018 Copyright</div>
+            </footer>
+   
+</body>
 </html>
